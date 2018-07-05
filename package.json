@@ -1,16 +1,13 @@
 {
-  "name": "forever",
+  "name": "xforever",
   "preferGlobal": "true",
-  "description": "A simple CLI tool for ensuring that a given node script runs continuously (i.e. forever)",
-  "version": "0.15.2",
-  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
-  "maintainers": [
-    "mmalecki <me@mmalecki.com>",
-    "avianflu <charlie@charlieistheman.com>"
-  ],
+  "description": "A modified-copy version of forever",
+  "version": "0.1.1",
+  "author": "idollo <stone58@qq.com>",
+  "maintainers": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/foreverjs/forever.git"
+    "url": "git@github.com:idollo/xforever.git"
   },
   "keywords": [
     "cli",
@@ -23,7 +20,7 @@
     "clone": "^1.0.2",
     "colors": "~0.6.2",
     "flatiron": "~0.4.2",
-    "forever-monitor": "~1.6.0",
+    "forever-monitor": "^1.7.0",
     "nconf": "~0.6.9",
     "nssocket": "~0.5.1",
     "object-assign": "^3.0.0",
